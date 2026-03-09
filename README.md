@@ -1,6 +1,6 @@
 ![GitHub License](https://img.shields.io/github/license/reginaldotfilho/lab-redes-01)
 
-# Laboratório de RTedes 01 - Projeto de Rede Local
+# Laboratório de Redes 01 - Projeto de Rede Local
 
 Aluno: Reginaldo  
 
@@ -28,6 +28,30 @@ O projeto será dividido em duas etapas:
 - Cabos de rede
 
 ---
+
+## 2. Topologia da Rede
+
+Diagrama lógico da rede usada nesta laboratório.
+```mermaid
+graph TD
+
+WAN[Internet / WAN do Provedor]
+
+Router[Roteador Wireless<br>1 Porta WAN<br>4 Portas LAN]
+
+PC1[Notebook 1]
+PC2[Notebook 2]
+PC3[Notebook 3]
+
+Printer[Impressora de Rede]
+
+WAN --> |Porta WAN| Router
+
+Router --> |LAN 1| PC1
+Router --> |LAN 2| PC2
+Router --> |LAN 3| PC3
+Router --> |LAN 4| Printer
+```
 
 
 
