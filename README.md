@@ -79,25 +79,11 @@ Geteway: 192.168.0.1
 
 ---
 
-## 5. Implementação do laboratório real
-
-Após a instalação  a rede foi montada fisicamente no laboratório.
-
-Etapas realizadas: 
-
-(fotos e capturas de tela realizadas durante o laboratório) 
-
-Teste:
-
-(fotos e capturas de tela realizadas durante o laboratório) 
-
----
-
-## 6. Conclusão 
+## 5. Conclusão 
 
 Este laboratório permitiu  compreender o funionamento de uma rede local simples, incluindo:
 
-- Estrutura de uma rede doméstica ou de pequeno escirtório
+- Estrutura de uma rede doméstica ou de pequeno escritório
 - Utilização de um roteador com porta WAN e portas LAN
 - Funcionamento do DHCP
 - Comunicação entre dispositivos na rede local
